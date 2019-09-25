@@ -4,7 +4,7 @@ urls = (
     '/(.*)/(.*)', 'index'
 )
 
-render = web.template.render("resources/")
+render = web.template.render("webproject/resources/")
 app = web.application(urls, globals())
 
 class index: 
